@@ -1,0 +1,14 @@
+#include <stdio.h>
+//sum of n natural number through while loop
+int main()
+{
+    int num,i=1,sum=0;
+    printf("Enter a natural number");
+    scanf("%d",&num);
+    while(i<=num){
+        sum =sum + i;
+        ++i;
+    }
+   printf("sum of natural number is %d",sum);
+    return 0;
+}
